@@ -1,0 +1,405 @@
+*{
+    /* margin: 0px;
+    box-sizing: border-box;
+    padding: 0px; */
+
+}
+.form.fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.btn{
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 12px; 
+    box-sizing: border-box; 
+    font-size: 15px; 
+}
+.popup{
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 15px;    
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0px 30px 30px;
+    visibility: hidden;
+    margin-top: -470px;
+    position: relative;
+    left: 13%;
+    
+    
+}
+@media only screen and (max-width: 400px){
+    .popup{
+        width: 400px;
+        height: 350px;
+        background-color: white;
+        border: 2px solid white;
+        border-radius: 15px;    
+        transform: translate(-50%,-50%) scale(0.1);
+        text-align: center;
+        padding: 0px 30px 30px;
+        visibility: hidden;
+        margin-top: -470px;
+        position: relative;
+        left: 3%;
+        
+        
+    }
+}
+formconatiner{
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    border: 2px solid black;
+}
+.open-popup{
+    visibility: visible;
+    top: -130px;
+    padding: 30px;
+    margin-left: 730px;
+    transform: translate(-50%,-50%) scale(1);
+}
+@media only screen and (max-width: 400px){
+
+    .open-popup{
+        visibility: visible;
+        top: -155px;
+        opacity: 0.9;
+        padding: 30px;
+        margin-left: 130px;
+        transform: translate(-50%,-50%) scale(1);
+        font-size: 10px;
+    }
+}
+
+.close-popup{
+    visibility: hidden;
+   
+   
+}
+
+
+.head{
+    background-image: url(Avery\ black.png);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    margin-left: 100px;
+    
+}
+@media only screen and (max-width: 400px){
+    .head{
+        background-image: url(Avery\ black.png);
+        background-size: 50%;
+        width: 300px;
+        height: 300px;
+        background-repeat: no-repeat;
+        margin-top: 10px;
+        margin-left: 20px;
+        
+    }
+}
+.carr{
+    background-image: url(orangecar.png);
+    background-repeat: no-repeat;
+    background-size: 98.5%;
+    margin-top: -30%;
+    width: 100%;
+    height: 250vh;
+    position: absolute;
+    left: 10px;
+    top: 97px;
+    z-index: -1;
+}
+.content{
+    margin-left: 100px;
+    margin-top: -130px;
+    font-size: 20px;
+}
+.three{
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+    font-size: 13px;
+    text-align: center;
+    
+
+}
+.first{
+    margin: 20px;
+    font-weight: normal;
+}
+
+
+@media only screen and (max-width: 400px){
+    .carr{
+        background-image: url(orangecar.png);
+        background-repeat: no-repeat;
+        background-size: 100vh;
+        width: 300%;
+        height: 100vh;
+        position: absolute;
+        left: -270px;
+        top: 100px;
+        /* z-index: -1; */
+    }
+    
+    .content{
+        margin-left: 10px;
+        margin-top: -220px;
+        font-size: 8px;
+    }
+
+    .three{
+        margin-left: 10px;
+        margin-top: 10px;
+        display: flex;
+        font-size: 10px;
+        text-align: center;
+        
+    
+    }
+    .first{
+        margin: 20px;
+        font-weight: normal;
+    }
+    
+}
+.geepp{
+    background-image: url(back\ second\ page.png);
+    background-repeat: no-repeat;
+    background-size: 95.1%;
+    /* margin-top: -30%; */
+    width: 105%;
+    height: 90vh;
+    opacity: 1;
+    position: relative;
+    top: 30px;
+    opacity: 1;
+
+}
+@media only screen and (max-width: 400px){
+    .geepp{
+        background-image: url(geep.png);
+        background-repeat: no-repeat;
+        background-size: 99.3%;
+        /* margin-top: -30%; */
+        width: 105%;
+        height: 300vh;
+        opacity: 1;
+        position: relative;
+        top: 450px;
+        opacity: 1;
+    
+    }
+}
+
+.geepcontent{
+    /* width: 400px; */
+    font-size: 10px;
+    border-radius: 1px;
+    margin-left: 50px;
+position: relative;
+margin-top: 90vh;
+margin-top: -450px;
+font-size: 15px;
+
+
+
+}
+@media only screen and (max-width: 400px){
+   
+    .geepcontent{
+        /* width: 400px; */
+        font-size: 10px;
+        border-radius: 1px;
+        margin-left: 10px;
+    /* position: relative; */
+    /* margin-top: 90vh; */
+    margin-top: -1350px;
+    line-height: 20px;   
+    
+    
+    }    
+}
+#fb{
+font-weight: bold;
+}
+.gephead{
+    line-height: 10px;
+}
+.inquirebtn{
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    background-color: orangered;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-left: 70px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+@media only screen and (max-width: 400px){
+
+    .inquirebtn{
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-left: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+}
+.treecontainer{
+    display: flex;
+    
+}
+#treee{
+    background-image: url(Trees.png);
+    background-repeat: no-repeat;
+    background-size: 112%;    
+    width: 500px;
+    height: 900px;
+    margin-top: -29px;
+    
+
+}
+@media only screen and (max-width: 400px){
+    
+    
+}
+#treeside{
+    margin-top: -30px;
+    /* margin-left: 20px; */
+    
+
+}
+.treesidecontent{
+    margin-left: -18px; 
+    background-color: #E5E5E5;
+    padding: 5px;
+    margin-top: 55px;
+    font-size: 16px;
+}
+
+.hd{
+    margin-left: 130px;
+    
+}
+.first{
+    margin-left: 150px;
+    opacity: 0.5;
+}
+@media only screen and (max-width: 400px){
+    #treeside{
+        margin-top: -90px;        
+        margin-left: -120px;    
+    }
+    .treesidecontent{
+        display: flex;
+        flex-direction: column;
+        /* margin-left: -125px;  */
+        background-color: #E5E5E5;
+        /* margin-top: -170px; */
+    }
+}
+.Rqstbtn{
+    font-size: 25px;
+    margin-left: 100px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.footer{
+    display: flex;
+    background-color: black;
+    /* width: 100%; */
+    color: white;
+    margin-top: -330px;
+    
+}
+@media only screen and (max-width: 400px){
+
+    .footer{
+        display: flex;background-color: black;
+        /* width: %; */
+        flex-direction: column;
+        flex-flow: column;
+        color: white;
+        margin-top: 3px;
+        
+    }
+}
+
+.white{
+    background-image: url(Avery\ white.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 100px;
+    /* margin-left: 20px; */
+}
+@media only screen and (max-width: 400px){
+   
+    .white{
+        background-image: url(Avery\ white.png);
+        background-size: 50%;
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 46px;
+        margin-left: 20px;
+        position: relative;
+        top: 596px;
+    }
+}
+.op{
+    opacity: 0.4;
+}
+
+.box{
+    flex: 5;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    line-height: 23px;
+  }
+  @media only screen and (max-width: 400px){
+  
+    .box{
+        flex: 5;
+        margin-left: 50px;
+      }
+}
+
+.final{
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
